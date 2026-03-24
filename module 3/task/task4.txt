@@ -1,0 +1,10 @@
+break
+------------------
+1.Used to terminate (exit) the loop completely.
+2.When break is executed, the loop stops immediately and control moves outside the loop.
+
+----------------
+continue
+------------------
+1.Used to skip the current iteration of the loop.
+2.When continue is executed, it skips the remaining code in that iteration and goes to the next iteration of the loop.
