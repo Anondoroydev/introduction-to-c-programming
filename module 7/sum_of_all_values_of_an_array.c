@@ -8,13 +8,16 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        scanf("%d", &a[i]);
+        scanf("%d ", &a[i]);
     }
 
-    for (int i = n - 1; i >= 0; i--)
+    int sum = 0;
+
+    for (int i = 0; i < n; i++)
     {
-        printf("%d ", a[i]);
+        sum = sum + a[i];
     }
+    printf("%d", sum);
 
     return 0;
-}
+}      
