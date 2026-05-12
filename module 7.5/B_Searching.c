@@ -27,4 +27,6 @@ int main()
     printf("%d\n", inx);
     
     return 0;
+
+    
 }
